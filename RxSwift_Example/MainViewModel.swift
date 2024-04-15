@@ -11,21 +11,17 @@ import RxSwift
 class MainViewModel{
     
     var result = BehaviorSubject<String>(value: "0")
+    var repo = Repository()
     
+    init (){
+        result = repo.result
+    }
     
     func Sum(number1 : String , number2 : String){
-        if let num1 = Int(number1) , let num2 = Int(number2){
-            let total = num1 + num2
-            
-            result.onNext(String(total))
-        }
+        repo.Sum(number1: number1, number2: number2)
     }
     
     func Multiplication(number1 : String , number2 : String){
-        if let num1 = Int(number1) , let num2 = Int(number2){
-            let multpl = num1 * num2
-            
-            result.onNext(String(multpl))
-        }
+        repo.Multiplication(number1: number1, number2: number2)
     }
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03EBCD553F35595B172DFB3E /* Pods_RxSwift_Example_RxSwift_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A99E06964924EF130A1BF4 /* Pods_RxSwift_Example_RxSwift_ExampleUITests.framework */; };
 		213484F22BCCCC4800636AC9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213484F12BCCCC4800636AC9 /* MainViewModel.swift */; };
+		21389B422BCCD5DD002FA5FF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21389B412BCCD5DD002FA5FF /* Repository.swift */; };
 		2195D6352BCCCAE20083A75F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195D6342BCCCAE20083A75F /* AppDelegate.swift */; };
 		2195D6372BCCCAE20083A75F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195D6362BCCCAE20083A75F /* SceneDelegate.swift */; };
 		2195D6392BCCCAE20083A75F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2195D6382BCCCAE20083A75F /* MainViewController.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		03E4A12019C059288FC6526B /* Pods-RxSwift_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift_ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwift_ExampleTests/Pods-RxSwift_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		213484F12BCCCC4800636AC9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		21389B412BCCD5DD002FA5FF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		2195D6312BCCCAE20083A75F /* RxSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2195D6342BCCCAE20083A75F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2195D6362BCCCAE20083A75F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				2195D6362BCCCAE20083A75F /* SceneDelegate.swift */,
 				2195D6382BCCCAE20083A75F /* MainViewController.swift */,
 				213484F12BCCCC4800636AC9 /* MainViewModel.swift */,
+				21389B412BCCD5DD002FA5FF /* Repository.swift */,
 				2195D63A2BCCCAE20083A75F /* Main.storyboard */,
 				2195D6402BCCCAE30083A75F /* Assets.xcassets */,
 				2195D6422BCCCAE30083A75F /* LaunchScreen.storyboard */,
@@ -417,6 +420,7 @@
 				2195D6352BCCCAE20083A75F /* AppDelegate.swift in Sources */,
 				2195D63F2BCCCAE20083A75F /* RxSwift_Example.xcdatamodeld in Sources */,
 				2195D6372BCCCAE20083A75F /* SceneDelegate.swift in Sources */,
+				21389B422BCCD5DD002FA5FF /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
