@@ -10,18 +10,35 @@ import RxSwift
 
 class MainViewController: UIViewController {
     
-    @IBOutlet weak var lblResult: UILabel!
-    @IBOutlet weak var textFieldNum1: UITextField!
-    @IBOutlet weak var textfieldNum2: UITextField!
-    @IBOutlet weak var btnSum: UIButton!
-    @IBOutlet weak var btnMultpl: UIButton!
+    @IBOutlet private weak var lblResult: UILabel!
+    @IBOutlet private weak var textFieldNum1: UITextField!
+    @IBOutlet private weak var textfieldNum2: UITextField!
+    @IBOutlet private weak var btnSum: UIButton!
+    @IBOutlet private weak var btnMultpl: UIButton!
     
-    var viewModel = MainViewModel()
+    private var viewModel = MainViewModel()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.initialize()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+    }
+    
+    private func initialize(){
+        textFieldNum1.placeholder = "Number 1"
+        textfieldNum2 .placeholder = "Number 2"
         btnSum.setTitle("Sum", for: .normal)
         btnMultpl.setTitle("Multiplication", for: .normal)
         
